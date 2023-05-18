@@ -2,7 +2,8 @@
   "compilerOptions": {
     "checkJs": true,
     "allowJs": true,
-    "noEmit": true
+    "noEmit": true,
+    "esModuleInterop": true
   },
   "include": ["main.js", "lib/**/*"],
   "exclude": ["node_modules"]

@@ -2,10 +2,11 @@
   "name": "node-typescript-starter",
   "version": "0.1.0",
   "scripts": {
+    "check": "tsc --noEmit",
     "dev": "nodemon main.js",
     "lint": "eslint --fix .",
-    "check": "tsc --noEmit",
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "node --test"
   },
   "author": "A. Hassan (https://hassan.web.id)",
   "license": "MIT",
@@ -14,6 +15,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@types/node": "^20.2.1",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "nodemon": "^2.0.22",
