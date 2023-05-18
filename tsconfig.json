@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2021",
-    "module": "commonjs",
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
-  }
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["main.js", "lib/**/*"],
+  "exclude": ["node_modules"]
 }
