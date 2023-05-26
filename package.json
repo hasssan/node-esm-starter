@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "scripts": {
     "check": "tsc --noEmit",
-    "dev": "nodemon main.js",
+    "dev": "TZ=UTC nodemon main.js",
     "lint": "eslint --fix .",
-    "start": "node main.js",
-    "test": "node --test"
+    "start": "TZ=UTC node main.js",
+    "test": "TZ=UTC node --test"
   },
   "author": "A. Hassan (https://hassan.web.id)",
   "license": "MIT",
