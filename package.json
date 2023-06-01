@@ -4,7 +4,7 @@
   "scripts": {
     "check": "tsc --noEmit",
     "dev": "TZ=UTC nodemon main.js",
-    "lint": "eslint --fix .",
+    "prepare": "husky install",
     "start": "TZ=UTC node main.js",
     "test": "TZ=UTC node --test"
   },
@@ -18,8 +18,18 @@
     "@types/node": "^20.2.5",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
+  },
+
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.md": "prettier --write"
   }
 }
