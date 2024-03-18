@@ -15,14 +15,14 @@
   },
   "type": "module",
   "devDependencies": {
-    "@types/node": "^20.11.24",
+    "@types/node": "^20.11.28",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nodemon": "^3.1.0",
     "prettier": "^3.2.5",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
