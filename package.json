@@ -26,7 +26,7 @@
     "lint-staged": "^17.2.0",
     "nodemon": "^3.1.14",
     "prettier": "^3.9.6",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "lint-staged": {
     "*.{js,cjs,mjs}": [
